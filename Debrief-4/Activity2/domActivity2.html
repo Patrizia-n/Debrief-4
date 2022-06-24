@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Practic 2</title>
+    <link rel="stylesheet" href="domActivity2.css" />
+</head>
+
+<body>
+    <div class="flex-container" style="border: 2px solid black">
+        <div class="nameDiv">
+            <h4>Enter your name</h4>
+            <span id="errMsg"> </span>
+            <input type="text" id="firstName" class="form-control m-2" />
+            <button type="button" id="btnFirstName" class="btn btn-primary">
+                Next
+            </button>
+        </div>
+        <div class="smileyDiv" id="smileyDiv">
+            <span id="welcomeText"></span>
+            <span id="displayMood"></span><br />
+            <p>
+                <img src="./img/sad.png" id="sad" alt="Sad" />
+                <img src="./img/stressed.png" id="stressed" alt="Stressed" />
+                <img src="./img/happy.png" id="happy" alt="Happy" />
+            </p>
+
+            <button type="button" id="btnMessage" class="btn btn-primary">
+                Next
+            </button>
+        </div>
+        <div class="displayMessage" id="displayMessage"></div>
+    </div>
+
+    <!-- <script src="debriefPart2.js"></script> -->
+    <script src="test.js"></script>
+</body>
+
+</html>
